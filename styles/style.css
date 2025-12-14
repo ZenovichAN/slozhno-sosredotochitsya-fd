@@ -101,10 +101,12 @@
   block-size: 26px;
 }
 
-.header__theme-menu-button:hover {
-  inline-size: 70px;
-  block-size: 26px;
-  border: 1px solid var(--button-color-hover);
+@media (hover: hover) {
+  .header__theme-menu-button:hover {
+    inline-size: 70px;
+    block-size: 26px;
+    border: 1px solid var(--button-color-hover);
+  }
 }
 
 .header__theme-menu-button_type_dark:focus-visible,
@@ -201,8 +203,10 @@
   outline: 1px solid var(--text-card);
 }
 
-.links-into-text:hover {
-  border-bottom: 1.5px solid currentColor; /*подчеркивание цветом текста*/
+@media (hover: hover) {
+  .links-into-text:hover {
+    border-bottom: 1.5px solid currentColor; /*подчеркивание цветом текста*/
+  }
 }
 
 .section-attantion {
