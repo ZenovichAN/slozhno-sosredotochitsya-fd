@@ -93,9 +93,6 @@
   block-size: 10px;
   padding: 0px;
   margin: 0px;
-}
-
-.header__theme-menu-button {
   background-color: transparent;
   text-transform: lowercase;
   font-size: var(--font-size);
