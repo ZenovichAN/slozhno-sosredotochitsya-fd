@@ -1,0 +1,153 @@
+/*----------------------------------------MAIN--------------------------------*/ 
+.content { 
+  /* display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: repeat(auto, 1fr);  */
+} 
+ /*----------------------------------section 1------------------------*/
+.cards { 
+  /*section*/ 
+  display: grid; 
+  grid-template-rows: 2; 
+  grid-template-columns: 1; 
+  /* padding-block-end: 36px;  */
+  gap: 20px;
+} 
+.section-why {
+}
+.cards__title { 
+  /*h3*/ 
+  color: var(--card-title); 
+  font-weight: var(--font-weight-bold); 
+  font-size: var(--font-size); 
+  /* padding-block-end: 20px;  */
+} 
+
+.why-title {
+    margin-block-start: 40px;
+}
+
+.cards__column {
+}
+
+.card { 
+  /*article*/ 
+  display: grid; 
+  grid-template-rows: 3; 
+  grid-template-columns: 1; 
+} 
+
+.why-cadr {
+}
+
+.card__subtitle { 
+ /* margin-block-start: 20px; */
+  /* margin-block-end: 20px; */
+ /* gap: 20px; */
+  font-weight: var(--font-weight-bold); 
+  font-size: var(--font-size); 
+} 
+
+.title-decor {
+}
+
+.card__content-text{
+  margin: 0 0 20px 0;
+  padding-bottom: 0px;
+   color: var(--text-card); 
+  font-weight: var(--font-weight-regular); 
+  font-size: var(--font-size);
+  padding-block-start: 10px; 
+  
+  line-height: 23.4px; 
+  /* letter-spacing: 1.2px;  */
+}
+
+/*----------------------------section 3 про 5 чего-то там----------------*/
+
+.five-easy .card__content-text{ /* для оcновного текста*/
+padding: 0;
+margin: 0;
+padding-top: 8px;
+padding-bottom: 22px;
+}
+
+.five-easy {  /* для секции целиком*/
+  margin-top: 32px;
+}
+
+.five-easy .edvice{
+  margin-bottom: 20px; /* для разделения двух названий*/
+}
+
+ /*------------------------------------------lincs text--------------*/
+ 
+.links-into-text { 
+  text-shadow: var(--links-shadow); 
+  text-decoration: none; 
+} 
+ 
+.links-into-text:focus-visible { 
+  border: none; 
+  outline: 1px solid var(--text-card); 
+} 
+ 
+.links-into-text:hover { 
+  border-bottom: 1.5px solid currentColor; /*подчеркивание цветом текста*/ 
+} 
+
+
+/* -------------------------------------=== БАЗОВЫЕ СТИЛИ (мобильные) === */
+.section-reduces {
+  /* display: block; */
+  padding-block-start: 29px;
+}
+ 
+
+ 
+.image__subtitle { 
+  font-weight: var(--font-weight-bold); 
+  font-size: var(--font-size); 
+  margin-block-start: 28px; 
+  margin-block-end: 11px; 
+} 
+ 
+.grid-images { 
+  display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: repeat(5, minmax(0, auto)); 
+  gap: 10px; 
+} 
+ 
+.image { 
+  max-width: 100%; 
+  height: auto; /* для пропорции */ 
+  display: block; /*лишние отступы убирает*/ 
+}
+
+
+
+
+
+/*-----------------------------------------------FOOTER---------------------------*/ 
+.footer { 
+  position: relative; 
+  display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr; 
+  margin-block-start: 40px; 
+  min-height: 100vh;
+} 
+ 
+.footer-text { 
+  font-weight: var(--font-weight-bold); 
+  font-size: 116px; 
+  justify-self: center; 
+  align-self: center; 
+  color: var(--text-color); 
+  text-shadow: var(--text-shadow); 
+} 
+ 
+footer.decorated-zone::after { 
+  bottom: 13px; 
+} 
