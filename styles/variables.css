@@ -10,9 +10,9 @@
   --text-color: #db00ff;
   --card-title: var(--accent-color);
   --text-shadow: 4px 4px 0 var(--accent-color);
-  --links-shadow: 3px 2px 0 var(--accent-color);
+  --links-shadow: 4px 4px 0 var(--accent-color);
   --display: inline-block;
-  --font: "IBM Plex Mono";
+  --font: "IBM Plex Mono", "Courier New", Courier, monospace;
   --font-size: 18px;
   --font-weight-bold: 700;
   --font-weight-regular: 400;
@@ -21,6 +21,5 @@
   --title-color: #ff0070;
   --border-button-last-ch: 1.5px solid var(--accent-color);
   --text-card: #f1b2ce;
-  --button-color-hover: #ff0070;
   --text-black: #000;
 }

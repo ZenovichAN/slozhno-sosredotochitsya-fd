@@ -110,9 +110,7 @@
   border: 1px solid var(--button-color-hover);
 }
 
-.header__theme-menu-button_type_dark:focus-visible,
-.header__theme-menu-button_type_light:focus-visible,
-.header__theme-menu-button_type_auto:focus-visible {
+.header__theme-menu-button:focus-visible {
   border: none;
   box-shadow: 0 1px 0 0 var(--button-color-hover); /* тень снизу */
   outline: none;

@@ -21,14 +21,7 @@
   --title-color: #ff8dcb;
   --border-button-last-ch: none;
   --border-button-first-ch: 1.5px solid var(--accent-color);
-  --links-shadow: 3px 2px 0 var(--title-color);
+  --links-shadow: 4px 4px 0 var(--title-color);
   --button-color-hover: rgba(255, 0, 111, 0.4);
-}
-
-.header__theme-menu-item:nth-last-child(1) {
-  border: var(--border-button-last-ch);
-}
-
-.header__theme-menu-item:nth-child(1) {
-  border: var(--border-button-first-ch);
+  --border-light: #353430;
 }
