@@ -19,8 +19,8 @@
   --text-shadow: 4px 4px 0 #ff8dcb;
   --display: none;
   --title-color: #ff8dcb;
-  --border-button-last-ch: none;
-  --border-button-first-ch: 1.5px solid var(--accent-color);
+  /* --border-button-last-ch: none;
+  --border-button-first-ch: 1.5px solid var(--accent-color); */
   --links-shadow: 4px 4px 0 var(--title-color);
   --button-color-hover: rgba(255, 0, 111, 0.4);
   --border-light: #353430;

@@ -199,6 +199,10 @@
   margin-bottom: 20px;
 }
 
+.subtitle-weight {
+  font-weight: var(--font-weight-regular);
+}
+
 .links-into-text {
   text-shadow: var(--links-shadow);
   text-decoration: none;
@@ -303,7 +307,7 @@ footer.decorated-zone::after {
     margin-block-end: 185px;
   }
 
-    /* Для первой секции */
+  /* Для первой секции */
   .section-why {
     grid-template-columns: 1fr 2fr;
     gap: 20px;
