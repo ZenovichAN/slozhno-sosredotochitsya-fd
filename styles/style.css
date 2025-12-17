@@ -106,7 +106,7 @@
 
 .header__theme-menu-button:focus-visible {
   border: none;
-  box-shadow: 0 1px 0 0 var(--button-color-hover); /* тень снизу */
+  box-shadow: 0 1px 0 0 var(--button-color-focus); /* тень снизу */
   outline: none;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .header__theme-menu-button_type_dark {
-  border: 1px solid var(--button-dark);
+  border: 1px solid var(--border-dark);
 }
 
 .header__logo {

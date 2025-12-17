@@ -19,9 +19,27 @@
   --text-shadow: 4px 4px 0 #ff8dcb;
   --display: none;
   --title-color: #ff8dcb;
-  /* --border-button-last-ch: none;
-  --border-button-first-ch: 1.5px solid var(--accent-color); */
   --links-shadow: 4px 4px 0 var(--title-color);
-  --button-color-hover: rgba(255, 0, 111, 0.4);
+  --button-color-hover: #35343066;
+  --button-color-focus: #353430;
   --border-light: #353430;
+}
+
+@media (prefers-color-scheme: light) {
+  .theme-auto {
+    --bg-page: url(../images/cover-image-light.png);
+    --bg-color: rgb(251, 233, 233);
+    --accent-color: #353430;
+    --corner-color: #353430;
+    --card-title: #353430;
+    --text-card: #353430;
+    --text-color: #ffc2e6;
+    --text-shadow: 4px 4px 0 #ff8dcb;
+    --display: none;
+    --title-color: #ff8dcb;
+    --links-shadow: 4px 4px 0 var(--title-color);
+    --button-color-hover: #35343066;
+    --button-color-focus: #353430;
+    --border-light: #353430;
+  }
 }

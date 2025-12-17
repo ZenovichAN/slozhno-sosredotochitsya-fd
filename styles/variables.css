@@ -22,4 +22,8 @@
   --border-button-last-ch: 1.5px solid var(--accent-color);
   --text-card: #f1b2ce;
   --text-black: #000;
+  --button-dark: #ff0070;
+  --button-color-hover: #ff007066;
+  --button-color-focus: #ff0070;
+  --border-light: transparent;
 }
