@@ -17,8 +17,8 @@
 /*------------------------------------HEADER--------------------------------*/
 .header {
   position: relative;
-  /* min-height: 668px; */
-  min-height: 100vh;
+  min-height: 668px;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
   align-content: center;
@@ -100,22 +100,24 @@
   block-size: 26px;
 }
 
-.header__theme-menu-button:hover {
+.header__theme-menu-button:not(.header__theme-menu-button_active):hover {
   border: 1px solid var(--button-color-hover);
 }
 
-.header__theme-menu-button:focus-visible {
+.header__theme-menu-button:not(
+    .header__theme-menu-button_active
+  ):focus-visible {
   border: none;
-  box-shadow: 0 1px 0 0 var(--button-color-focus); /* тень снизу */
+  box-shadow: 0 1px 0 0 var(--button-color-focus);
   outline: none;
 }
 
-.header__theme-menu-button_type_light {
-  border: 1px solid var(--border-light);
-}
-
-.header__theme-menu-button_type_dark {
-  border: 1px solid var(--border-dark);
+/* aктивная кнопка */
+.header__theme-menu-button_active,
+.header__theme-menu-button:disabled {
+  pointer-events: none;
+  border: 1px solid var(--accent-color);
+  box-shadow: none;
 }
 
 .header__logo {
@@ -148,8 +150,8 @@
 
 .cards {
   display: grid;
-  grid-template-rows: 2;
-  grid-template-columns: 1;
+  grid-template-rows: 2fr;
+  grid-template-columns: 1fr;
   gap: 20px;
 }
 
@@ -165,8 +167,8 @@
 
 .card {
   display: grid;
-  grid-template-rows: 3;
-  grid-template-columns: 1;
+  grid-template-rows: 3fr;
+  grid-template-columns: 1fr;
 }
 
 .card__subtitle {
@@ -247,7 +249,8 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   margin-block-start: 40px;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 668px;
 }
 
 .footer-text {

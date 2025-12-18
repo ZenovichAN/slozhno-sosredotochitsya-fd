@@ -40,6 +40,8 @@
     --links-shadow: 4px 4px 0 var(--title-color);
     --button-color-hover: #35343066;
     --button-color-focus: #353430;
-    --border-light: #353430;
+    --accent-color: #353430;
+    --button-color-focus: #353430;
+    --button-color-hover: #35343066;
   }
 }

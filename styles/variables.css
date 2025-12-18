@@ -9,8 +9,8 @@
   --corner-color: #ff0070;
   --text-color: #db00ff;
   --card-title: var(--accent-color);
-  --text-shadow: 4px 4px 0 var(--accent-color);
-  --links-shadow: 4px 4px 0 var(--accent-color);
+  --text-shadow: 2px 2px 0 var(--accent-color);
+  --links-shadow: 2px 2px 0 var(--accent-color);
   --display: inline-block;
   --font: "IBM Plex Mono", "Courier New", Courier, monospace;
   --font-size: 18px;
@@ -22,8 +22,6 @@
   --border-button-last-ch: 1.5px solid var(--accent-color);
   --text-card: #f1b2ce;
   --text-black: #000;
-  --button-dark: #ff0070;
   --button-color-hover: #ff007066;
   --button-color-focus: #ff0070;
-  --border-light: transparent;
 }
